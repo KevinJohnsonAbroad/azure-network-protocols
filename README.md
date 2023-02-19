@@ -42,16 +42,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 Within Windows 10 Virtual Machine - Install Wireshark
--In Wireshark ICMP traffic was flitered. 
--The private IP address was retrieved of the Ubuntu VM and pinged from within the Windows 10 VM.
--Observe ping requests and replies within WireShark.
--From the Windows 10 ,  open PowerShell was and ping (www.google.com)
--A perpetual/non-stop ping was initiated from Windows 10 VM Ubuntu VM.
--Open Network Security Group on Ubuntu VM.
--Disable Incoming (inbound) ICMP traffic was disabled.
--In Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity.
--Enable again ICMP traffic for Network Security Group on the Ubuntu VM.
--In Windows 10 VM, the ICMP traffic can be seen again in WireShark.
+-In Wireshark ICMP traffic was flitered. <br>
+-The private IP address was retrieved of the Ubuntu VM and pinged from within the Windows 10 VM.<br>
+-Observe ping requests and replies within WireShark.<br>
+-From the Windows 10 ,  open PowerShell was and ping (www.google.com)<br>
+-A perpetual/non-stop ping was initiated from Windows 10 VM Ubuntu VM.<br>
+-Open Network Security Group on Ubuntu VM.<br>
+-Disable Incoming (inbound) ICMP traffic was disabled.<br>
+-In Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity.<br>
+-Enable again ICMP traffic for Network Security Group on the Ubuntu VM.<br>
+-In Windows 10 VM, the ICMP traffic can be seen again in WireShark.<br>
 
 </p>
 <br />
@@ -60,11 +60,11 @@ Within Windows 10 Virtual Machine - Install Wireshark
 <img src="https://i.imgur.com/qCTHzgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--In Wireshark, "SSH traffic only" was filtered.
--From Windows 10 VM, “SSH into” Ubuntu Virtual Machine (via its private IP address)
--Using commands such as ls, pwd, etc, type into the linux SSH was used to connect.
--SSH traffic is observed spamming in WireShark. 
--Exit SSH connection by typing ‘exit’ and pressing [Enter].
+-In Wireshark, "SSH traffic only" was filtered.<br>
+-From Windows 10 VM, “SSH into” Ubuntu Virtual Machine (via its private IP address)<br>
+-Using commands such as ls, pwd, etc, type into the linux SSH was used to connect.<br>
+-SSH traffic is observed spamming in WireShark.<br>
+-Exit SSH connection by typing ‘exit’ and pressing [Enter].<br>
 
 
 </p>
@@ -74,9 +74,9 @@ Within Windows 10 Virtual Machine - Install Wireshark
 <img src="https://i.imgur.com/s0wzQ1y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Via Wireshark, filter "DHCP traffic only"
--From Windows 10 VM, a new IP address was issued from the command line (ipconfig /renew)
--DHCP traffic can be observed in WireShark.
+-Via Wireshark, filter "DHCP traffic only"<br>
+-From Windows 10 VM, a new IP address was issued from the command line (ipconfig /renew)<br>
+-DHCP traffic can be observed in WireShark.<br>
 
 
 </p>
@@ -86,9 +86,9 @@ Within Windows 10 Virtual Machine - Install Wireshark
 <img src="https://i.imgur.com/6Ysh565.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--In Wireshark, DNS traffic "only" was filtered.
--Windows 10 command line, type nslookup to see what google.com and disney.com’s IP addresses are.
--The DNS traffic was then observed in WireShark.
+-In Wireshark, DNS traffic "only" was filtered.<br>
+-Windows 10 command line, type nslookup to see what google.com and disney.com’s IP addresses are.<br>
+-The DNS traffic was then observed in WireShark.<br>
 
 
 
